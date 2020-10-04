@@ -15,7 +15,7 @@
     <copyright>Copyright © 2007-2014 Mike Edward Moras (e-sushi™)</copyright>
     <licenseUrl>https://e-sushi.net/minibin</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/picolino/chocolatey-packages/main/packages/minibin/src/icons/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/picolino/chocolatey-packages/master/packages/minibin/src/icons/icon.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

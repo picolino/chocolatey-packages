@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>minibin</id>
+    <title>MiniBin</title>
+    <version>6.6.0.0</version>
+    <authors>Mike Edward Moras (e-sushi™)</authors>
+    <owners>Danila Chervonny (picolino)</owners>
+    <summary>Use e-sushi's minibin to remove that trash in style… recycle it your way!</summary>
+    <description>MiniBin by e-sushi is the quick and easy recycle bin for your Microsoft Windows system tray area. MiniBin is completely configurable as well as themeable using standard icon files (*.ico) via minibin’s context menu. Also, you can change or translate every text e-sushi’s minibin displays by simply modifying minibin’s INI file. Minibin has been build by e-sushi to adapt to its user’s personal preferrences.</description>
+    <projectUrl>https://e-sushi.net/minibin</projectUrl>
+    <tags>minibin, recycle, recycle-bin, recyclebin</tags>
+    <copyright>Copyright © 2007-2014 Mike Edward Moras (e-sushi™)</copyright>
+    <licenseUrl>https://e-sushi.net/minibin</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/picolino/chocolatey-packages/main/packages/minibin/src/icons/icon.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

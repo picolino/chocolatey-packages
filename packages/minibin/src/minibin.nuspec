@@ -11,11 +11,11 @@
     <summary>Use e-sushi's minibin to remove that trash in style… recycle it your way!</summary>
     <description>MiniBin by e-sushi is the quick and easy recycle bin for your Microsoft Windows system tray area. MiniBin is completely configurable as well as themeable using standard icon files (*.ico) via minibin’s context menu. Also, you can change or translate every text e-sushi’s minibin displays by simply modifying minibin’s INI file. Minibin has been build by e-sushi to adapt to its user’s personal preferrences.</description>
     <projectUrl>https://e-sushi.net/minibin</projectUrl>
-    <tags>minibin, recycle, recycle-bin, recyclebin</tags>
+    <tags>minibin recycle recycle-bin recyclebin</tags>
     <copyright>Copyright © 2007-2014 Mike Edward Moras (e-sushi™)</copyright>
     <licenseUrl>https://e-sushi.net/minibin</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/picolino/chocolatey-packages/master/packages/minibin/src/icons/icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/picolino/chocolatey-packages/7d57b4b380f3992be05301a876958383477f6956/packages/minibin/src/icons/icon.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

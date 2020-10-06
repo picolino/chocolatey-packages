@@ -9,17 +9,31 @@
     <authors>Mike Edward Moras (e-sushi™)</authors>
     <owners>Danila Chervonny (picolino)</owners>
     <summary>Use e-sushi's minibin to remove that trash in style… recycle it your way!</summary>
-    <description>MiniBin by e-sushi is the quick and easy recycle bin for your Microsoft Windows system tray area. MiniBin is completely configurable as well as themeable using standard icon files (*.ico) via minibin’s context menu. Also, you can change or translate every text e-sushi’s minibin displays by simply modifying minibin’s INI file. Minibin has been build by e-sushi to adapt to its user’s personal preferrences.</description>
-    <projectUrl>https://e-sushi.net/minibin</projectUrl>
+    <projectUrl>https://e-sushi.net</projectUrl>
     <tags>minibin recycle recycle-bin recyclebin</tags>
     <copyright>Copyright © 2007-2014 Mike Edward Moras (e-sushi™)</copyright>
     <licenseUrl>https://e-sushi.net/minibin</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawcdn.githack.com/picolino/chocolatey-packages/7d57b4b380f3992be05301a876958383477f6956/packages/minibin/src/icons/icon.png</iconUrl>
+    <packageSourceUrl>https://github.com/picolino/chocolatey-packages/tree/master/packages/minibin</packageSourceUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <description>
+MiniBin by e-sushi is the quick and easy recycle bin for your Microsoft Windows system tray area.  
+MiniBin is completely configurable as well as themeable using standard icon files (*.ico) via minibin’s context menu.  
+Also, you can change or translate every text e-sushi’s minibin displays by simply modifying minibin’s INI file.  
+Minibin has been build by e-sushi to adapt to its user’s personal preferrences.
+    </description>
+    <releaseNotes>
+First publish
+
+#### Program
+* [Official page](https://e-sushi.net/minibin/)
+
+#### Package
+* [Repository](https://github.com/picolino/chocolatey-packages/tree/master/packages/minibin/6.6.0.0)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

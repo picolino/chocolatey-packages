@@ -8,11 +8,11 @@
     <version>6.6.0.0</version>
     <authors>Mike Edward Moras (e-sushi™)</authors>
     <owners>Danila Chervonny (picolino)</owners>
-    <summary>Use e-sushi's minibin to remove that trash in style… recycle it your way!</summary>
+    <summary>The free recycle bin for your system tray area.</summary>
     <projectUrl>https://e-sushi.net</projectUrl>
     <tags>minibin recycle recycle-bin recyclebin</tags>
     <copyright>Copyright © 2007-2014 Mike Edward Moras (e-sushi™)</copyright>
-    <licenseUrl>https://e-sushi.net/minibin</licenseUrl>
+    <licenseUrl>http://creativecommons.org/licenses/by-nc-nd/3.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawcdn.githack.com/picolino/chocolatey-packages/e9e1c46098556a5f9482b58b4784afa1c509961f/packages/minibin/6.6.0.0/icons/icon.png</iconUrl>
     <packageSourceUrl>https://github.com/picolino/chocolatey-packages/tree/master/packages/minibin</packageSourceUrl>
@@ -20,19 +20,45 @@
       <dependency id="" version="" />
     </dependencies>-->
     <description>
+#### Overview
 MiniBin by e-sushi is the quick and easy recycle bin for your Microsoft Windows system tray area.  
 MiniBin is completely configurable as well as themeable using standard icon files (*.ico) via minibin’s context menu.  
 Also, you can change or translate every text e-sushi’s minibin displays by simply modifying minibin’s INI file.  
 Minibin has been build by e-sushi to adapt to its user’s personal preferrences.
+      
+#### License and changelogs
+MiniBin licensed under a Creative Commons “Attribution — Non-Commercial — No Derivations 3.0 Unported” License.
+
+License file and changelogs can be found in installation folder of MiniBin.
+
+#### Themes
+You can find `minibin-themes.zip` archive in downloaded package folder
+
+Theme can be applied easily by right mouse button click on minibin tray icon → Change Icons → CLick on each icon to change it on icon from chosen theme.
+
+#### Language
+You can easily translate minibin user interface by editing `minibin-language.ini` file into installation folder
     </description>
     <releaseNotes>
-First publish
-
 #### Program
-* [Official page](https://e-sushi.net/minibin/)
+6.6.0.0 - Added "configUpdateSpeed" to INI [Tweak] section.
+This tweak settig allows you to configure the
+update speed in seconds. You can set a value of
+1 up to 60, allowing minibin to update whenever
+you want... from every second up to every minute.
 
-#### Package
-* [Repository](https://github.com/picolino/chocolatey-packages/tree/master/packages/minibin/6.6.0.0)
+---
+#### Previous versions
+      
+6.5.0.1 - Tiny cosmetic fix.
+
+6.5.0.0 - Currently active icons are displayed as preview
+in the "Change Icons" menu.
+
+6.4.0.0 - Added fix for Windows 8.1 hybernation problem.
+- Introduced changelog due to popular demand.
+
+Previous changes are not available.
     </releaseNotes>
   </metadata>
   <files>

@@ -16,6 +16,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- <iconUrl></iconUrl> -->
     <packageSourceUrl>https://github.com/picolino/chocolatey-packages/tree/master/packages/sqlbench</packageSourceUrl>
+    <docsUrl>https://github.com/felixge/sqlbench/blob/master/README.md</docsUrl>
+    <projectSourceUrl>https://github.com/felixge/sqlbench</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/felixge/sqlbench/issues</bugTrackerUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

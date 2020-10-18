@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>sqlbench</id>
+    <title>sqlbench</title>
+    <version>1.1.0.0</version>
+    <authors>Felix Geisendörfer</authors>
+    <owners>Danila Chervonny (picolino)</owners>
+    <summary>sqlbench measures and compares the execution time of one or more SQL queries.</summary>
+    <projectUrl>https://github.com/felixge/sqlbench</projectUrl>
+    <tags>sql postgresql benchmarking performance</tags>
+    <copyright>Copyright © 2020 Felix Geisendörfer</copyright>
+    <licenseUrl>https://github.com/felixge/sqlbench/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <iconUrl></iconUrl> -->
+    <packageSourceUrl>https://github.com/picolino/chocolatey-packages/tree/master/packages/sqlbench</packageSourceUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <description>
+#### Overview
+The main use case is benchmarking simple CPU-bound query variants against each other during local development.
+Only PostgreSQL is supported at this point, but pull requests for MySQL or other databases are welcome.
+      
+#### License
+MIT
+    </description>
+    <releaseNotes>
+#### Program
+
+##### 1.1.0.0
+- Basic CI that runs tests on PRs and publishes binaries to GitHub for tags
+- Fix tests that don’t compile
+- Fix typos reported by @breinbaas1 on twitter
+- Implement comparing with CSV baseline
+- Remove debugging statement
+- Remove unused field for now
+- Test both with and without planning included
+- Use TIMING OFF to reduce EXPLAIN overhead
+- README enhancements
+
+---
+#### Previous versions
+      
+##### 1.0.0.0
+Initial release
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

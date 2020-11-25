@@ -5,11 +5,11 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>minibin</id>
     <title>MiniBin</title>
-    <version>6.6.0.0</version>
+    <version>6.6.0.001</version>
     <authors>Mike Edward Moras (e-sushi™)</authors>
     <owners>Danila Chervonny (picolino)</owners>
     <summary>The free recycle bin for your system tray area.</summary>
-    <projectUrl>https://e-sushi.net/minibin</projectUrl>
+    <projectUrl>https://e-sushi.net</projectUrl>
     <tags>minibin recycle recycle-bin recyclebin</tags>
     <copyright>Copyright © 2007-2014 Mike Edward Moras (e-sushi™)</copyright>
     <licenseUrl>http://creativecommons.org/licenses/by-nc-nd/3.0</licenseUrl>
